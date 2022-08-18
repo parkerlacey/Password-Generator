@@ -30,29 +30,29 @@ var specialChar = "!@#$%^&*()-+?<>}{|~;" .split("");
 
 
 // Asking the user if they want to include lowercase characters
-var lowerCaseConfirm = confirm("Do you want your password to include lowercase characters?");
-    if(lowerCaseConfirm === true) {
+var hasLowerCase = confirm("Do you want your password to include lowercase characters?");
+    if(hasLowerCase=== true) {
         for (var i = 0; i < lowerCaseChar.length; i++) {
             possibleChar.push(lowerCaseChar[i]);
         }
     }
 // Asking the user if they want to include uppercase characters
-var upperCaseConfirm = confirm("Do you want your password to include uppercase characters?");
-    if (upperCaseConfirm === true) {
+var hasUpperCase = confirm("Do you want your password to include uppercase characters?");
+    if (hasUpperCase === true) {
         for (var i = 0; i < upperCaseChar.length; i++) {
             possibleChar.push(upperCaseChar[i]);
         }
     }
 // Asking the user if they want to include numbers
-var numberConfirm = confirm("Do you want your password to include numbers");
-    if (numberConfirm === true) {
+var hasNumbers= confirm("Do you want your password to include numbers");
+    if (hasNumbers === true) {
         for (var i = 0; i < numberChar.length; i++) {
             possibleChar.push(numberChar[i]);
         }
     }
 // Asking the user if they want to include special characters    
-var specialConfirm = confirm("Do you want your password to include special characters?");
-    if (specialConfirm === true) {
+var hasSpecial = confirm("Do you want your password to include special characters?");
+    if (hasSpecial === true) {
         for (var i = 0; i < specialChar.length; i++) {
             possibleChar.push(specialChar[i]);
         }
