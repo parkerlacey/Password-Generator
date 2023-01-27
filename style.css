@@ -10,10 +10,19 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #f08080;
+}
+
+.title {
+  color: white;
+  font-family: 'Comic Sans Ms', cursive;
+  font-weight: 700;
+  font-size: 41px;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Comic Sans Ms', cursive;
+  font-weight: 700;
   background-color: #f9fbfd;
 }
 
@@ -72,9 +81,14 @@ header {
   clear: both;
 }
 
+.generate {
+  font-family: 'Comic Sans MS', cursive;
+}
+
 .btn {
+  font-family: 'Comic Sans MS', cursive;
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: #f08080;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -98,6 +112,7 @@ button[disabled] {
 }
 
 #password {
+  font-family: "Comic Sans Ms", cursive;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
